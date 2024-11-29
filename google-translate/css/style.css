@@ -1,0 +1,23 @@
+/* Styling untuk Google Translate */
+#google_translate_element {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+    background-color: #ffffff; /* Warna background */
+    border: 1px solid #dddddd; /* Border */
+    border-radius: 5px; /* Sudut border melengkung */
+    padding: 10px; /* Padding dalam box */
+    position: fixed; /* Membuat widget tetap di layar */
+    bottom: 20px; /* Jarak dari bawah */
+    right: 20px; /* Jarak dari kanan */
+    z-index: 1000; /* Supaya muncul di atas elemen lain */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+.goog-te-combo {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    background-color: #f9f9f9;
+    color: #333;
+}

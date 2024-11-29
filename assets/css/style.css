@@ -1,0 +1,72 @@
+/* Styling untuk Google Translate */
+#google_translate_element {
+    margin-top: 10px;
+    text-align: right; /* Posisi widget di header */
+    font-size: 0.9rem;
+}
+
+.goog-te-gadget {
+    color: #333 !important;
+    font-family: Arial, sans-serif;
+}
+
+/* Reset dan default styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+header {
+    background: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.section p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
