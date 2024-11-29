@@ -37,7 +37,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 .hero {
-    background: url('../images/hero.jpg') no-repeat center center/cover;
+    background: url('assets/images/hero.jpg') no-repeat center center/cover; /* Path gambar diperbaiki */
     height: 60vh;
     color: #fff;
     display: flex;
@@ -69,4 +69,9 @@ header nav a:hover {
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+/* Styling tambahan untuk widget */
+.goog-te-banner-frame, .goog-te-menu-frame {
+    display: none !important;
 }
